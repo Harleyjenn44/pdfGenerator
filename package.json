@@ -1,0 +1,25 @@
+{
+  "name": "pdfgenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harleyjenn44/pdfGenerator.git"
+  },
+  "keywords": [
+    "Ashton"
+  ],
+  "author": "Ashton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harleyjenn44/pdfGenerator/issues"
+  },
+  "homepage": "https://github.com/Harleyjenn44/pdfGenerator#readme",
+  "dependencies": {
+    "inquirer": "^7.0.4"
+  }
+}
