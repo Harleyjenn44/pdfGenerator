@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/Harleyjenn44/pdfGenerator#readme",
   "dependencies": {
+    "axios": "^0.19.2",
+    "electron-html-to": "^2.6.0",
     "inquirer": "^7.0.4"
   }
 }
