@@ -1,6 +1,6 @@
 var inquirer = require("inquirer");
 var axios = require("axios");
-var electron_html_to = require("electron-html-to");
+var convertFactory = require("electron-html-to");
 var fs = require("fs");
 
 inquirer.prompt([
@@ -27,22 +27,22 @@ inquirer.prompt([
     });
 });
 
-// var conversion = convertFactory({
+//  var conversion = convertFactory({
 //     converterPath: convertFactory.converters.PDF
-//   });
+//    });
   
-//   function pdf(){
-//   conversion({ html: htmlCode }, function(err, result) {
-//     if (err) {
-//       return console.error(err);
-//     }
+//    function pdf(){
+//    conversion({ html: htmlCode }, function(err, result) {
+//      if (err) {
+//        return console.error(err);
+//      }
    
-//     // console.log(result.numberOfPages);
-//     // console.log(result.logs);
-//     // result.stream.pipe(fs.createWriteStream('/path/to/anywhere.pdf'));
-//     // conversion.kill(); // necessary if you use the electron-server strategy, see bellow for details
-//   });
-// };
+//       console.log(result.numberOfPages);
+//       console.log(result.logs);
+//      result.stream.pipe(fs.createWriteStream('/path/to/anywhere.pdf'));
+//       conversion.kill(); 
+//    });
+//  };
     function html(data) {
         var htmlCode = `
     <head> <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></head>
